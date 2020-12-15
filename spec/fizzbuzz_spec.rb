@@ -17,4 +17,8 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(7)).to eq 7
   end
 
+  it 'returns "Try again" when passed !integer' do
+    expect(fizzbuzz(!Integer)). to eq "Try again"
+  end
+
 end
